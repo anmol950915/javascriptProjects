@@ -7,7 +7,7 @@ class JobComponent{
   
 }
 
-console.log("My JOB DATA");
+console.log("My First JOB DATA");
 
 
 const jobObj = new JobComponent(jobObj); 
