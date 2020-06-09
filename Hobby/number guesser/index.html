@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Number Guesser</title>
+  </head>
+  <style>
+    body{
+        background: url(./assets/background.jpg);
+        background-repeat:no-repeat;
+        background-repeat: repeat-y;
+       
+       }
+  </style>
+  <body>
+
+
+    <div class="container text-center d-flex justify-content-center flex-column mt-5" >
+    
+        <div class="title">
+          <h3 style="color:#fff">Number Guesser</h3>
+          <p style="color:#fff"> Guess the number between <span id="min_num">1</span> and <span id="max_num">10</span>  </p>
+        </div>
+  
+        <div class= "input-group mt-5 w-50 mx-auto">
+          <input type="number" class="form-control" placeholder="Enter your Guess" id="guess-input">
+          <button type="submit" class="btn" id="guess-btn">Guess</button>
+        </div>
+        <p id="wrong_guess" class="alert  alert-warning mt-5  mx-auto w-50" style="display:none;">Abe phir daal number</p>
+        <p id="wrong_guess_2" class="alert  alert-warning mt-5  mx-auto w-50" style="display:none;">1 baar aur guess kar ke dekh</p>
+        <p id="correct_guess" class="alert alert-success mt-5 mx-auto w-50 " style="display:none;">Jeet gaya.. AB? ;)</p>
+        <p id="game_Over" class="alert alert-danger mt-5 mx-auto w-50 " style="display:none;">Haar gaya tu,Chal nikal ab</p>
+     
+          
+     
+    </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
