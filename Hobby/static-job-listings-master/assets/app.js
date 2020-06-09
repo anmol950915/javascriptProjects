@@ -7,7 +7,7 @@ class JobComponent{
   
 }
 
-console.log(JobDatasdfsd);
+console.log("My JOB DATA");
 
 
 const jobObj = new JobComponent(jobObj); 
